@@ -27,6 +27,23 @@ int main()
             area = PI * radius * radius;
             cout << fixed << setprecision(2) << area << endl;
             break;
+
+        case 2:
+            cin >> width >> height;
+            area = width * height;
+            cout << fixed << setprecision(2) << area << endl;
+            break;
+
+        case 3:
+            cin >> base >> height;
+            area = base * height * 0.5;
+            cout << fixed << setprecision(2) << area << endl;
+            break;
+
+        case 4:
+            cout << "Program Stopped" << endl;
+            break;
+            
     cout << left << setprecision(2) << fixed;
     cout << "The area is " << area << endl;
 
