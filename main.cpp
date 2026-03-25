@@ -43,9 +43,9 @@ int main()
         case 4:
             cout << "Program Stopped" << endl;
             break;
-            
-    cout << left << setprecision(2) << fixed;
-    cout << "The area is " << area << endl;
+
+        default:
+            cout << "Wrong number" << endl;
 
     return 0;
     }
