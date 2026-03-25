@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    const double PI = 3.14159265358979;
+    const double PI = 3.14159;
     int choice;
     double width, height, radius, base;
     double area;
@@ -20,8 +20,16 @@ int main()
 
     // TODO
 
+    switch(choice)
+    {
+        case 1:
+            cin >> radius;
+            area = PI * radius * radius;
+            cout << fixed << setprecision(2) << area << endl;
+            break;
     cout << left << setprecision(2) << fixed;
     cout << "The area is " << area << endl;
 
     return 0;
+    }
 }
